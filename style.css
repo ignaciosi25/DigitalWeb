@@ -1,5 +1,4 @@
-section.landing
-  {
+section.landing  {
     text-align: center;
     height: 90%;
 
@@ -18,4 +17,57 @@ h1 {
   max-width: 900px;
   font-size: 50px;
   line-height: 1em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+div.dosTercios {
+  max-width: 580px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+p {
+  font-size: 20px;
+  font-family: 'Roboto-light', sans-serif;
+  font-weight: 100px;
+  color: #4d4d4d;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.botonVerde {
+  background: #5aac44;
+  color: white;
+  font: #FFFFFF;
+  display: inline-block;
+  font-weight: bold;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-top: 7%:
+  padding-bottom:7%;
+  position: relative;
+  text-decoration: none;
+  border: 0;
+  border-radius:.3em;
+  font-size: 20px;
+  font-family: 'Roboto-light', sans-serif;
+  font-weight: 100px;
+}
+
+.transparente{
+  color: #333;
+  position: relative;
+  padding-top: 20px;
+  border-top: 10px;
+  border-color: #00FFFFFF;
+}
+
+section.azul {
+  background-color: #0079bf;
+  height: 40%;
+  margin: 0 auto;
+  color: #FFF;
 }
